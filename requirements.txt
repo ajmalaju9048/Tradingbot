@@ -1,0 +1,18 @@
+# ── Core framework ────────────────────────────────────────────
+python-telegram-bot==21.6
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+httpx==0.27.2
+pydantic==2.9.2
+
+# ── Database ──────────────────────────────────────────────────
+sqlalchemy==2.0.36
+
+# ── AI — Google Gemini via REST (no heavy SDK required) ───────
+# We call the Gemini REST API directly via httpx.
+# Uncomment below only if you want the official Python SDK.
+# google-generativeai==0.8.3
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv==1.0.1
+aiofiles==24.1.0
